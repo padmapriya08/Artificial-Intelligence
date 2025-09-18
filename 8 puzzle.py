@@ -12,3 +12,4 @@ def solve(start="123456708"):
                 ns=list(s);ns[i],ns[j]=ns[j],ns[i];ns="".join(ns)
                 if ns not in seen:seen|={ns};q.append((ns,p+m))
 print("Moves:",solve("123456708"))
+
